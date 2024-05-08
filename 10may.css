@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    background-image: url("../img/tabletop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    }
+
+audio{
+    display: none;
+}
+
+.carta{
+    display: flex;
+    margin: 5%;
+    width: 80%;
+    transform: rotate(-5deg);
+}
+
+.izq, .der{
+    width: 50%;
+    padding: 2%;
+}
+
+.izq{
+    background-image: linear-gradient(to right, rgba(253, 253, 253, 0.52),rgba(253, 253, 253, 0.52),rgba(253, 253, 253, 0.52), rgba(97, 97, 97, 0.73)),
+                      url('../img/papelArrugado.jpg');
+    display: none;
+}
+
+.poema{
+    margin: 5%;
+    line-height: 200%;
+    font-size: 1.5em;
+    color: transparent;
+}
+
+.der{
+    background-image: linear-gradient(to left, rgba(253, 253, 253, 0.52),rgba(253, 253, 253, 0.52),rgba(253, 253, 253, 0.52), rgba(97, 97, 97, 0.73)),
+                      url('../img/papelArrugado.jpg');
+}
+
+.fotito{
+    width: 40%;
+    display: block;
+    margin: 0 auto 0 auto;
+    transform: rotate(10deg);
+    display: none;
+}
+
